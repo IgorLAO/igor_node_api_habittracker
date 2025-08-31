@@ -1,0 +1,22 @@
+{
+    "name": "igor_node_api_habittracker",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "plata-runtime + plata-api",
+        "dev": "plata-runtime + plata-api --hot",
+        "create": "plata-runtime --skip-recompile + plata-create",
+        "build": "tsc -p . && plata-runtime + plata-build",
+        "gen:swagger": "plata-runtime + plata-swagger"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "plata_type": "api",
+    "plata_name": "pwi-plata-type",
+    "my-scripts": {},
+    "dependencies": {
+        "pwi-plata-mysql": "^0.2.5",
+        "pwi-plata-type": "^0.4.179"
+    }
+}
