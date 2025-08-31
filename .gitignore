@@ -6,7 +6,7 @@ yarn-error.log*
 dist/
 build/
 __BUILD__/
-
+__RELEASE__/
 *.env
 .env
 .env.local
